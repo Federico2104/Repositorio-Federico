@@ -3,15 +3,18 @@
    padding: 0;
    margin: 0;
 }
-
-
+body{
+   background: whitesmoke;
+   font-family: 'Montserrat', sans-serif;;
+}
 .img_bg{background-image: url(/assets/img/portada.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    width: 100%;
    height: 420px;
    background-position: center;
-  
+   
+   
 }
 .icono{
    width: 40px;
@@ -19,13 +22,17 @@
 h1{
    font-family:'Zen Dots', cursive;
    font-size: 7rem;
-   color:#FD3F00;
-   text-shadow: 3px 3px 2px black ;}
-/*'Montserrat', sans-serif;*/
+   /*color:#FD3F00;*/
+   color: orangered;
+   text-shadow: 3px 3px 2px black;}
+
                           /*CARDS*/
 .icono_carrito
 {
    width: 33px;
+}
+.card{
+   box-shadow: 1px 2px 3px 3px rgba(0,0,0,0.4);
 }
 
    

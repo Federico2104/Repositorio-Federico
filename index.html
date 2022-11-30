@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="styles.css">
 <body>
     <header>
-            <div>
-                <div class="img_bg d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center flex-column ">
+                <div class="img_bg me-5 ">
                     <h1 class="">WORLD GAMING</h1>
                 </div>    
-                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top opacity-75 fs-5 color-dark ">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light  opacity-75 fs-5 color-dark">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#">
                         <img class="icono" src="/assets/img/icono.jpg" alt="icono">
@@ -38,10 +38,21 @@
                         </ul>
                       </div>
                     </div>
+                    <div class="container-fluid">
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                        <a href="#" class="btn">
+                          <img class="icono_carrito" src="/assets/img/icono_carrito.jpg" alt="icono carrito de compras">
+                        </a>
+                      </form>
+                    </div>
                   </nav>
             </div>
     </header>
     <main>
+
+      <section>
         <h2 class="text-center m-4">Lo mas vendido</h2>
         <div class="d-flex justify-content-around m-2">
             <div class="card" style="width: 18rem;">
@@ -79,8 +90,7 @@
                 </div>
               </div>
         </div>
-
-
+      </section>
     </main>
 
 
