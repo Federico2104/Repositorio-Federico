@@ -13,20 +13,28 @@ body{
    width: 100%;
    height: 420px;
    background-position: center;
-   
-   
 }
 .icono{
    width: 40px;
 }
+.boton_estilo{
+   border: 2px solid;
+   border-radius: 14px ;
+   color: black;
+}
+.boton_estilo:hover{
+   background-color: orangered;
+   color: aliceblue;
+}
+
 h1{
    font-family:'Zen Dots', cursive;
    font-size: 7rem;
    /*color:#FD3F00;*/
    color: orangered;
    text-shadow: 3px 3px 2px black;}
-
-                          /*CARDS*/
+   
+   /*CARDS*/
 .icono_carrito
 {
    width: 33px;
