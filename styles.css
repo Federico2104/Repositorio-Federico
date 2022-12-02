@@ -18,13 +18,15 @@ body{
    width: 40px;
 }
 .boton_estilo{
-   border: 2px solid;
-   border-radius: 14px ;
-   color: black;
+   /*border: 2px solid;
+   border-radius: 14px ;*/
+   color: aliceblue;
+   background-color: orangered;
 }
 .boton_estilo:hover{
    background-color: orangered;
-   color: aliceblue;
+   color: black;
+   
 }
 
 h1{
@@ -42,7 +44,20 @@ h1{
 .card{
    box-shadow: 1px 2px 3px 3px rgba(0,0,0,0.4);
 }
+/*FOOTER*/
+.logos_redes{
+   width: 50px;
+}
+.logos_redes:hover{
+background-color: orangered;
 
+border-radius: 14px;
+
+}
+.bg_copy{
+   background-color: orangered;
+   font-weight: bold;
+}
    
 
 

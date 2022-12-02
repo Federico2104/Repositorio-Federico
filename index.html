@@ -39,7 +39,7 @@
                       </ul>
                       <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="boton_estilo p-1" type="submit">Buscar</button>
+                        <button class="btn boton_estilo p-1" type="submit">Buscar</button>
                       </form>
                     </div>
                   </div>
@@ -48,14 +48,14 @@
     </header>
     <main>
       <section>
-        <h2 class="text-center m-4">Lo mas vendido</h2>
+        <h2 class="text-center m-4 p-3">ULTIMAS NOVEDADES</h2>
         <div class="d-flex justify-content-around m-2">
             <div class="card" style="width: 18rem;">
                 <img src="assets/img/card1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Pc Gamer</h5>
                   <p class="card-text"> Ryzen 7 5700G | 16Gb Memoria Ram | 1Tb Ssd | Iqual Cm-9527</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
+                  <a href="#" class="btn boton_estilo">Comprar</a>
                   <a href="#" class="btn">
                     <img class="icono_carrito" src="/assets/img/icono_carrito.jpg" alt="icono carrito de compras">
                   </a>
@@ -66,7 +66,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Pc Gamer</h5>
                   <p class="card-text">Ryzen 5 5600X | 16Gb Memoria Ram | 480Gb Ssd | Rx 6650 XT</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
+                  <a href="#" class="btn boton_estilo">Comprar</a>
                   <a href="#" class="btn">
                     <img class="icono_carrito" src="/assets/img/icono_carrito.jpg" alt="icono carrito de compras">
                   </a>
@@ -78,7 +78,7 @@
                   <h5 class="card-title">Pc Gamer</h5>
                   <p class="card-text"> Ryzen 5 4500 | 16Gb Memoria Ram | 1Tb Ssd | 1660 Super
                   </p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
+                  <a href="#" class="btn boton_estilo">Comprar</a>
                   <a href="#" class="btn">
                     <img class="icono_carrito" src="/assets/img/icono_carrito.jpg" alt="icono carrito de compras">
                   </a>
@@ -87,17 +87,41 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div>
-        
+    <footer class="pt-2 mt-5 border ">
+      <div class="d-flex justify-content-around align-items-center">
+          <div class="text-center">
+              <h3>Ayuda</h3>
+              <p>Si tenes sugerencias o comentarios</p>
+              <form action="#">
+                  <button class=" btn boton_estilo p-1" type="submit">Contactanos</button>
+              </form>
+          </div>
+          <div class="text-center">
+              <form action="#">
+                  <button class="btn boton_estilo p-1 mb-2"type="submit" >Trabaja con nosotros</button>
+              </form>
+              <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Gt8hZfTtKEy3ibqQr_b9XNKr3i5wbSNOqEBfwBpUaF5UQlVLNk9KMkhKQjVYT1dMQlhRTEk1Wk5KMy4u">Boton de arrepentimiento</a>
+          </div>
+          <div class="">
+              <h3>Seguinos en</h3>
+              <a href="https://www.youtube.com/" target="_blank">
+                  <img class="logos_redes" src="/assets/img/youtube.png" alt="">
+              </a>
+              <a href="https://es-la.facebook.com/" target="_blank">
+                  <img class="logos_redes" src="/assets/img/facebook.png" alt="">
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                  <img class="logos_redes" src="/assets/img/instagram.png" alt="">
+              </a>
+              <a href="https://twitter.com/" target="_blank">
+                  <img class="logos_redes" src="/assets/img/signo-de-twitter.png" alt="">
+              </a>
+          </div>
       </div>
-      <div></div>
-      <div></div>
-    </footer>
-
-
-    
-
+      <div class=" bg_copy d-flex mt-3 w-100 justify-content-center">
+        <p class="m-2">Copyright © 2022 World Gaming - All Rights Reserved</p>
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
